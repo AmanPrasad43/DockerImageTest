@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="4d6ee0da-2222-40df-92de-236f5827dcdd" ItemType="RunSetConfig" CreatedBy="amanpras" Created="202410151204" GingerVersion="24.4.0.0" Version="1" LastUpdateBy="amanpras" LastUpdate="202410151204" />
+<RunSetConfig Guid="4d6ee0da-2222-40df-92de-236f5827dcdd" Name="Default Run Set" SealightsTestRecommendations="No">
+<CategoriesDefinitions>
+<SolutionCategoryDefinition Category="Product" Guid="fa023f30-a9fc-4645-95c0-2af993f6b55b" />
+<SolutionCategoryDefinition Category="TestType" Guid="219ef549-b953-4fe9-8332-6d20758b992f" />
+<SolutionCategoryDefinition Category="Release" Guid="07aa1799-045f-41c1-8f2d-3c90abe8a55a" />
+<SolutionCategoryDefinition Category="Iteration" Guid="8b03f352-7b56-492a-babf-b4e02e437a86" />
+<SolutionCategoryDefinition Category="BusinessProcessTag" Guid="157f6118-1c7e-4fa7-a25a-a79b376f0726" />
+<SolutionCategoryDefinition Category="SubBusinessProcessTag" Guid="79d32517-0a3d-45f3-9f9d-d04b8823af9d" />
+<SolutionCategoryDefinition Category="UserCategory1" Guid="49377110-7304-4c05-9baf-85d585ecd2e0" />
+<SolutionCategoryDefinition Category="UserCategory2" Guid="8adf3ae0-46f9-48a9-9762-1bd68d263558" />
+<SolutionCategoryDefinition Category="UserCategory3" Guid="e309be16-1416-463e-a7be-240e3271e2bf" />
+</CategoriesDefinitions>
+
+<GingerRunners>
+<GingerRunner Guid="56fedb05-c9b4-45ad-afd0-e35b36e49a0e" Name="Runner 1" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="aa6bec5f-71be-4afd-a18d-b1fd9cf5d2f6" AgentName="web" AppID="47631286-72cc-4138-b143-fe4c13e2c76d" AppName="web" Guid="bb0e48c1-4d55-4640-8b9e-1d571551ecda" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="60a82402-b082-4543-b17a-acc4f3532b9a" BusinessFlowInstanceGuid="8677d51f-053b-4736-be4b-9df839933a7d" BusinessFlowIsActive="True" BusinessFlowName="SauceDemoLogin" Guid="22b788b2-0774-4017-b6d0-4c53a6f34bb0" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+
+<RunSetActions>
+<RunSetActionSendFreeEmail Condition="AlwaysRun" Guid="63f40627-71b7-4ed1-bf2b-dafb9e304f98" MailFrom="Aman.p" MailFromDisplayName="_Amdocs Ginger Automation" Name="Send Text Email" RunAt="ExecutionStart">
+<Email>
+<Email EmailMethod="SMTP" Guid="f1a7a601-c081-47f7-a290-7923c0233e95" SMTPPort="25">
+<Attachments>
+</Attachments>
+</Email>
+</Email>
+</RunSetActionSendFreeEmail>
+</RunSetActions>
+
+<SelfHealingConfiguration>
+<SelfHealingConfig EnableSelfHealing="True" Guid="24a74a43-bb96-4ec0-b240-6d43f1ca16cf" ReprioritizePOMLocators="True" />
+</SelfHealingConfiguration>
+</RunSetConfig></GingerRepositoryItem>
