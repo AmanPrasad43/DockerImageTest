@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="aa6bec5f-71be-4afd-a18d-b1fd9cf5d2f6" ItemType="Agent" CreatedBy="amanpras" Created="202410151149" GingerVersion="24.4.0.0" Version="1" LastUpdateBy="amanpras" LastUpdate="202410151149" />
+<Agent AgentType="Driver" DriverType="Selenium" Guid="aa6bec5f-71be-4afd-a18d-b1fd9cf5d2f6" Name="web" Platform="Web">
+<DriverConfiguration>
+<DriverConfigParam Description="Proxy Auto Config Url" Guid="25c31332-f697-4646-bb55-4074e449549f" Parameter="ProxyAutoConfigUrl" />
+<DriverConfigParam Description="EnableNativeEvents(true) so as to perform native events smoothly on IE " Guid="be14ee73-9a53-41e7-890b-d2028d830c0d" Parameter="EnableNativeEvents" Value="false" />
+<DriverConfigParam Description="Auto Detect Proxy Setting?" Guid="b570e4e1-9429-4326-9cb0-df9a65d84607" Parameter="AutoDetect" Value="true" />
+<DriverConfigParam Description="Path to extension to be enabled" Guid="f29c55eb-5777-4aa4-a9b7-c84b78bb30c6" Parameter="ExtensionPath" />
+<DriverConfigParam Description="Only for Internet Explorer |  Set &quot;false&quot; if dont want to clear the Internet Explorer cache before launching the browser" Guid="ac4c2523-69bf-4679-ae9f-db3e0989c6bd" Parameter="EnsureCleanSession" Value="true" />
+<DriverConfigParam Description="Ignore Internet Explorer protected mode" Guid="48727c1c-89f6-4c7f-8d5a-d0c7ac8d52b3" Parameter="IgnoreIEProtectedMode" Value="true" />
+<DriverConfigParam Description="Only for Internet Explorer &amp; Firefox | Set &quot;true&quot; for using 64Bit Browser" Guid="02bbfb91-3ae3-4777-8c3f-1406ae71aaa1" Parameter="Use64Bitbrowser" Value="false" />
+<DriverConfigParam Description="Use specific Version of browser. Only Testing browser versions are supported." Guid="8b8d73f5-95d2-4759-8a6f-0530c281badb" Parameter="BrowserVersion" />
+<DriverConfigParam Description="Use Browser In Private/Incognito Mode (Please use 64bit Browse with Internet Explorer " Guid="f33d3682-47c9-4b77-a7d6-620a8910d9be" Parameter="BrowserPrivateMode" Value="false" />
+<DriverConfigParam Description="Set &quot;true&quot; to Launch the Browser minimized" Guid="87240ab4-8dda-4940-ad3a-be1cf6afe8a1" Parameter="BrowserMinimized" Value="false" />
+<DriverConfigParam Description="Set the minimum log level to read the console logs from the browser console." Guid="f8fd4cdd-6b09-4717-951c-cbe98c57cadb" Parameter="BrowserLogLevel" Value="3" />
+<DriverConfigParam Description="Only for Edge: Open Edge browser in IE Mode" Guid="e2e7ea1c-6238-4dd7-8067-f5da9c1d122f" Parameter="OpenIEModeInEdge" Value="false" />
+<DriverConfigParam Description="Provide the path to the browser executable." Guid="1c3df957-2648-4d0a-b89c-2d7976ec9aa2" Parameter="BrowserExecutablePath" />
+<DriverConfigParam Description="Hide the Driver Console (Command Prompt) Window" Guid="5759808c-25e3-4c45-83c0-abfd76ae1214" Parameter="HideConsoleWindow" Value="false" />
+<DriverConfigParam Description="Only For Chrome : Use a valid device name from the DevTools Emulation panel." Guid="c9545da0-fbbb-40ce-920e-7ba759a6b27d" Parameter="EmulationDeviceName" />
+<DriverConfigParam Description="Only For Chrome &amp; Firefox : A browser's user agent string (UA) helps identify which browser is being used, what version, and on which operating system" Guid="fa67dec5-22d1-4ae6-a892-616ac20f8114" Parameter="BrowserUserAgent" />
+<DriverConfigParam Description="The height in pixels of the browser's viewable area" Guid="2f9818fd-1738-4ae1-b17c-b636519bb2b3" Parameter="BrowserHeight" />
+<DriverConfigParam Description="The width in pixels of the browser's viewable area" Guid="27ddd3a4-50c4-4be1-a3c5-cdc037317f28" Parameter="BrowserWidth" />
+<DriverConfigParam Description="Only for Chrome, Firefox, Edge and Brave | Full path for the User Profile folder" Guid="23710043-a404-4629-ac07-3c205944122b" Parameter="UserProfileFolderPath" />
+<DriverConfigParam Description="Only for Chrome | Define Download Folder path" Guid="9db5f964-59ce-42a9-8d85-9e530428fbb4" Parameter="DownloadFolderPath" />
+<DriverConfigParam Description="Amount of time the driver should wait when searching for an element if it is not immediately present" Guid="ed9487be-5a19-4e03-8319-a6e4a6c320c5" Parameter="ImplicitWait" Value="30" />
+<DriverConfigParam Description="HttpServer Timeout for Web Action Completion. Default/Recommended is minimum 60 secs" Guid="c1ad7284-25dd-480c-8c78-43b27e4cb2a6" Parameter="HttpServerTimeOut" Value="60" />
+<DriverConfigParam Description="PageLoad Timeout for Web Action Completion" Guid="852ab55a-2cb8-4bbb-a8a2-103f06667197" Parameter="PageLoadTimeOut" Value="60" />
+<DriverConfigParam Description="Defines the current session’s page loading strategy.you can change from the default parameter of normal to eager or none" Guid="1b745198-49ad-4bc0-8142-0fc33faad226" Parameter="PageLoadStrategy" Value="Normal" />
+<DriverConfigParam Description="Start BMP - Browser Mob Proxy (true/false)" Guid="06f6bba3-caa3-493f-97d9-192a60983ec5" Parameter="StartBMP" Value="false" />
+<DriverConfigParam Description="Start BMP .BAT File - full path to BMP BAT file" Guid="ff015bc4-ba66-4976-8b92-38cc85d04676" Parameter="StartBMPBATFile" Value="C:\...\browsermob\bin\browsermob-proxy.bat" />
+<DriverConfigParam Description="Start BMP Port" Guid="b85c035a-08b5-4eb6-a8df-2356149e08bd" Parameter="StartBMPPort" Value="9090" />
+<DriverConfigParam Description="Take Only Active Frame Or Window Screen Shot In Case Of Failure" Guid="da4e0fc4-ac8d-40f5-9d01-586eb6786bb1" Parameter="TakeOnlyActiveFrameOrWindowScreenShotInCaseOfFailure" Value="false" />
+<DriverConfigParam Description="Selenium line arguments || Set Selenium arguments separated with ; sign" Guid="402a97f5-9671-4c82-9ddf-4cbc39f1bc92" Parameter="SeleniumUserArguments" />
+<DriverConfigParam Description="Change to Iframe automatically in case of POM Element execution " Guid="8bb07578-6603-4168-a85a-dd6f608daa5d" Parameter="HandelIFramShiftAutomaticallyForPomElement" Value="true" />
+<DriverConfigParam Description="Sample Value is 'localhost:9222'.This allows to Connect to existing browser session on specific debug port instead of Launching a new browser" Guid="f54feceb-0122-4033-b1e6-5a13dbb89551" Parameter="DebugAddress" />
+<DriverConfigParam Description="Specifies the state of current session’s user prompt handler, You can change it from dismiss, accept, dismissAndNotify, acceptAndNotify, ignore" Guid="24963257-e05a-4b44-a291-60b0959ed580" Parameter="UnhandledPromptBehavior" Value="DismissAndNotify" />
+<DriverConfigParam Description="Use custom browser driver. Provide complete driver path with file extension" Guid="00fb42fb-4917-417a-8c30-d7ec60203a17" Parameter="DriverFilePath" />
+<DriverConfigParam Description="Browser Type" Guid="6d9c6675-ef41-4497-8248-509244232609" Parameter="BrowserType" Value="Chrome" />
+<DriverConfigParam Description="Proxy Server:Port" Guid="ca57c4c7-c81a-4373-a878-a949ea6b94a9" Parameter="Proxy" />
+<DriverConfigParam Description="Set multiple By Pass Proxy URLs separated with ';'|| By Pass Proxy works only when Proxy URL is mentioned" Guid="cfd59693-d89a-4150-9aaa-72656292fadc" Parameter="ByPassProxy" Value="http://127.0.0.1;http://localhost;" />
+<DriverConfigParam Description="Set &quot;true&quot; to run the browser in background (headless mode) for faster Execution" Guid="d5d717f8-fb29-4766-8654-e81b48c77c67" Parameter="HeadlessBrowserMode" Value="false" />
+<DriverConfigParam Description="The amount of maximum time (in seconds) to wait for the driver to load/connect" Guid="fdb5e288-ad90-4fde-a6a4-65b7629f4bf6" Parameter="DriverLoadWaitingTime" Value="30" />
+</DriverConfiguration>
+</Agent></GingerRepositoryItem>
