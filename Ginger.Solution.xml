@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="fef4585d-ee20-4038-9cb6-b3d5ddc0ca33" ItemType="Solution" CreatedBy="amanpras" Created="202410151149" GingerVersion="24.4.0.0" Version="3" LastUpdateBy="amanpras" LastUpdate="202410151201" />
+<GingerRepositoryItem><Header ItemGuid="fef4585d-ee20-4038-9cb6-b3d5ddc0ca33" ItemType="Solution" CreatedBy="amanpras" Created="202410151149" GingerVersion="24.4.0.0" Version="5" LastUpdateBy="amanpras" LastUpdate="202410161316" />
 <Solution EncryptedValidationString="VLvTlqDlLTZLr6hcLNjW2Q==" Guid="fef4585d-ee20-4038-9cb6-b3d5ddc0ca33" Name="AmanDocker">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="web" Guid="47631286-72cc-4138-b143-fe4c13e2c76d" Platform="Web" />
