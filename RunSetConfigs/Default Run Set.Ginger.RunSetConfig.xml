@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="4d6ee0da-2222-40df-92de-236f5827dcdd" ItemType="RunSetConfig" CreatedBy="amanpras" Created="202410151153" GingerVersion="24.4.0.0" Version="2" LastUpdateBy="amanpras" LastUpdate="202410151206" />
+<GingerRepositoryItem><Header ItemGuid="4d6ee0da-2222-40df-92de-236f5827dcdd" ItemType="RunSetConfig" CreatedBy="amanpras" Created="202410151153" GingerVersion="24.4.0.0" Version="3" LastUpdateBy="amanpras" LastUpdate="202410161313" />
 <RunSetConfig Guid="4d6ee0da-2222-40df-92de-236f5827dcdd" Name="Default Run Set" SealightsTestRecommendations="No">
 <CategoriesDefinitions>
 <SolutionCategoryDefinition Category="Product" Guid="fa023f30-a9fc-4645-95c0-2af993f6b55b" />
@@ -34,6 +34,7 @@
 </Email>
 </Email>
 </RunSetActionSendFreeEmail>
+<RunSetActionHTMLReport Condition="AlwaysRun" Guid="d1b922e6-8107-4863-982c-394bf72b3f9d" Name="Produce HTML Report" RunAt="ExecutionEnd" />
 </RunSetActions>
 
 <SelfHealingConfiguration>
