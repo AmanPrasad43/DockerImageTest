@@ -13,6 +13,6 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 - script: echo Ginger Docker execution stareted
-- script: echo docker run ghcr.io/ginger-automation/gingerruntime-jammy:2024.4.0 run --env Default --encrypted --url https://github.com/AmanPrasad43/DockerImageTest.git --encryptionKey "Amdocs@9958" --branch AmanMaster --pass "0zs7X8+L9RFUeMpp6mpuAvcQE6E/hImhpmNA4LfJePGfL3fHs+ehe/KCIJTJQzKMN/H/3ORAhCj1InZof7UW6CHaeVn+2QXChZwm9iws4Byv53VjsfdVHgXwsBZICE/4" --runset "Default Run Set" --solution DockerImageTest --type GIT --user AmanPrasad43 
+- script: docker run ghcr.io/ginger-automation/gingerruntime-jammy:2024.4.0 run --env Default --encrypted --url https://github.com/AmanPrasad43/DockerImageTest.git --encryptionKey "Amdocs@9958" --branch AmanMaster --pass "0zs7X8+L9RFUeMpp6mpuAvcQE6E/hImhpmNA4LfJePGfL3fHs+ehe/KCIJTJQzKMN/H/3ORAhCj1InZof7UW6CHaeVn+2QXChZwm9iws4Byv53VjsfdVHgXwsBZICE/4" --runset "Default Run Set" --solution DockerImageTest --type GIT --user AmanPrasad43 
 - script: echo See https://aka.ms/yaml execution of ginger docker endded
   displayName: 'Run a multi-line script'
