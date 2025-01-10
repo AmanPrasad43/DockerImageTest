@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="953e58d3-5e87-4b64-8288-1655b2419801" ItemType="BusinessFlow" CreatedBy="amanpras" Created="202501101416" GingerVersion="24.5.0.0" Version="2" LastUpdateBy="amanpras" LastUpdate="202501101416" />
+<BusinessFlow DevelopmentTime="00:00:04" Guid="953e58d3-5e87-4b64-8288-1655b2419801" Name="WireMock" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" DevelopmentTime="00:00:04" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="afc16cac-c213-49e5-91b2-e48528fb5cf4" PercentAutomated="100%" TargetApplication="web" Type="Regular">
+<Acts>
+<ActClearAllVariables Active="True" AutoScreenShotOnFailure="False" Description="Clear All Variables Action" Guid="39eaadd2-1ef8-469f-94ce-4b3f6a853094" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="4dd3bea6-aaed-44f5-a370-50bad55fd25b" Name="Group">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="afc16cac-c213-49e5-91b2-e48528fb5cf4" ActivityName="Activity 1" Guid="1f638edf-9747-445b-b821-73be818d70e9" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="web" Guid="ffb13032-8b45-4159-98a9-50da9be66cfc" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
